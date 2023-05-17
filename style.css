@@ -260,7 +260,7 @@ header::after{
 
 .header-nav{
     --gap: 2.5rem;
-    padding-block: 1.5rem;
+    padding-block: 2.5rem;
 
 }
 
@@ -444,7 +444,7 @@ background-repeat: no-repeat;
 
 .section-testimonial{
 text-align: center;
-padding: 7rem 4rem ;
+padding: 10rem 4rem ;
 }
 
 .section-testimonial h2{
