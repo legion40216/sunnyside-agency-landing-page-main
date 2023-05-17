@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+  </style>
+</head>
+<body >
+  <header>
+    <div class="header-nav nav-container flex">
+      <div class="logo">
+        <img src="images/logo.svg" alt="logo">
+      </div>
+      <button class="mobile-nav-toggle" aria-controls="primary-navigation">
+        <span class="sr-only" aria-expanded="false">Menu</span>
+      </button>
+      <nav>
+        <ul id="primary-navigation"  data-visible="false" class="primary-navigation flex">
+          <li class="active"><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Projects</a></li>
+          <li><button data-type="nav-btn">Contact</button> </li>
+        </ul>
+      </nav>
+    </div>
+
+    <section class="section-hero">
+      <h1 class=
+      "fs-700 
+      text-white 
+      ff-serif 
+      letter-spacing-1 
+      uppercase">
+      We are creatives</h1>
+    </section>
+  </header>
+
+  <main>
+    
+    <section class="section-main">
+      <div class="service-text flow">
+        <h2>Transform your brand</h2>
+        <p>We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <a href="" class="colored-underline yellow-underline">Learn more</a>
+      </div>
+     <div class="upper-row" style="background-image: url(images/desktop/image-transform.jpg) ;"></div>
+     <div class="upper-row" style="background-image: url(images/desktop/image-stand-out.jpg) ;"></div>
+     <div class="service-text flow">
+      <h2>Stand out to the right audience</h2>
+      <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
+        <a href="" class="colored-underline pink-underline">Learn more</a>
+    </div>
+    <div class="last-row grid" style="background-image: url(images/desktop/image-graphic-design.jpg);">
+      <div class="last-row-content flow">
+        <h2 class="ff-serif fw-900 text-dark-blue">Graphic design</h2>
+        <p class="text-dark-blue">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+      </div>
+      </div>
+    <div class="last-row grid" style="background-image: url(images/desktop/image-photography.jpg);">
+     <div class="last-row-content flow">
+      <h2 class="ff-serif fw-900 text-dark-blue">Photography</h2>
+      <p class="text-dark-blue">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+    </div>
+    </div>
+    </div>
+    </section>
+
+    <section class="section-testimonial">
+      <h2 class="ff-serif uppercase letter-spacing-1 text-greyblue fs-300 fw-900">Client testimonials</h2>
+     
+      <div class="testimonial-card-gp flex">
+        
+      <div class="testimonial-card flow">
+        <img src="images/image-emily.jpg" alt="">
+        <p class="text-Vdark-grayblue">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+       <div>
+        <h3 class="ff-serif">Emily R.</h3>
+        <p class="text-greyblue">Marketing Director</p>
+       </div>
+      </div>
+      <div class="testimonial-card flow">
+        <img src="images/image-thomas.jpg" alt="">
+        <p class="text-Vdark-grayblue">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+       <div>
+        <h3 class="ff-serif">Thomas S.</h3>
+        <p class="text-greyblue">Chief Operating Officer</p>
+       </div>
+      </div>
+      <div class="testimonial-card flow">
+        <img src="images/image-jennie.jpg" alt="">
+        <p class="text-Vdark-grayblue">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+       <div>
+        <h3 class="ff-serif">Jennie F.</h3>
+        <p class="text-greyblue">Business Owner</p>
+       </div>
+      </div>
+    </div>
+    </section>
+
+    <section class="footer-images grid">
+      <picture>
+        <source media="(min-width:45rem)" srcset="images/desktop/image-gallery-milkbottles.jpg" />
+        <source media="(max-width:45rem)" srcSet="images/mobile/image-gallery-milkbottles.jpg"/>
+        <img src="" alt="" />
+      </picture>
+      <picture>
+        <source media="(min-width:45rem)" srcset="images/desktop/image-gallery-orange.jpg" />
+        <source media="(max-width:45rem)" srcSet="images/mobile/image-gallery-orange.jpg"/>
+        <img src="" alt="" />
+      </picture>
+      <picture>
+        <source media="(min-width:45rem)" srcset="images/desktop/image-gallery-cone.jpg" />
+        <source media="(max-width:45rem)" srcSet="images/mobile/image-gallery-cone.jpg"/>
+        <img src="" alt="" />
+      </picture>
+      <picture>
+        <source media="(min-width:45rem)" srcset="images/desktop/image-gallery-sugarcubes.jpg" />
+        <source media="(max-width:45rem)" srcSet="images/mobile/image-gallery-sugar-cubes.jpg"/>
+        <img src="" alt="" />
+      </picture>
+    </section>
+  
+    <footer class="flow">
+      <div class="logo">
+        <img src="images/logo.svg" alt="logo">
+      </div>
+      <nav>
+        <ul id="secondary-navigation"  data-visible="false" class="secondary-navigation" >
+          <li class="active">About</li>
+          <li>Services</li>
+          <li>Projects</li>
+        </ul>
+      </nav>
+      <div class="social-media-icons">
+        <img class="svg-icon" src="images/icon-facebook.svg" alt="">
+        <img class="svg-icon" src="images/icon-instagram.svg" alt="">
+        <img class="svg-icon" src="images/icon-pinterest.svg" alt="">
+        <img class="svg-icon" src="images/icon-twitter.svg" alt="">
+      </div>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Suleman Lohar</a>.
+      </div>
+    </footer>
+  </main>
+
+
+<script>
+const nav = document.querySelector(".primary-navigation")
+const mobileNavToggle = document.querySelector(".mobile-nav-toggle")
+
+mobileNavToggle.addEventListener("click", ()=>{
+const visiblity = nav.getAttribute("data-visible")
+if (visiblity === "false") {
+        nav.setAttribute("data-visible", true);
+    } else {
+        nav.setAttribute("data-visible", false);
+    }
+})
+
+</script>
+</body>
+</html>
