@@ -171,7 +171,7 @@ select {
 
 .container {
     margin-inline: auto;
-    max-width: 80rem;
+    max-width: 95rem;
 }
 
 
@@ -235,7 +235,7 @@ select {
 /* ------------------- */
 
 header{
-    height: 43rem;
+    height: 48rem;
     background-image: url('images/desktop/image-header.jpg');
     background-position: bottom center;
     background-size: cover;
@@ -259,7 +259,7 @@ header::after{
 
 .header-nav{
     --gap: 2.5rem;
-    padding-block: 3rem;
+    padding-block: 2.5rem;
 
 }
 
@@ -397,11 +397,6 @@ header::after{
    font-family: var(--ff-serif);
    font-size: var(--fs-600);
    font-weight: 900;
-}
-
-.service-text p{
-    color: hsl( var(--clr-dark-blue) )
-   
 }
 
 .upper-row{
@@ -561,3 +556,4 @@ button[data-type = "nav-btn"]{
  color: hsl( var(--clr-white) );
  }
 }
+
