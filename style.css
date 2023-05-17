@@ -177,7 +177,7 @@ select {
 
 
 .nav-container {
-    padding-inline: 2em;
+    padding-inline: 1em;
     margin-inline: auto;
     max-width: 80rem;
 }
@@ -260,7 +260,7 @@ header::after{
 
 .header-nav{
     --gap: 2.5rem;
-    padding-block: 2.5rem;
+    padding-block: 3rem;
 
 }
 
@@ -308,7 +308,7 @@ header::after{
         background-color: hsl( var(--clr-white) );
         --gap: 1.8rem;
         z-index: 999;
-        top: 13%;
+        top: 15%;
     
     }
     
@@ -334,8 +334,7 @@ header::after{
         display: block;
         position: absolute;
         z-index: 5000;
-        right: 1rem;
-        top: 1.5rem;
+        right: 2rem;
         background: transparent;
         border: 0;
         background-image: url("images/icon-hamburger.svg");
@@ -546,15 +545,20 @@ button
 }
 
 button[data-type = "nav-btn"]{
-/* background-color: hsl( var(--clr-white) ); */
 background-color: hsl( var(--clr-yellow) );
 padding: 0.8rem 1.7rem;
 border-radius: 100vw;
 font-family: var(--ff-serif);
 }
 
-button[data-type = "nav-btn"]:hover,
-button[data-type = "nav-btn"]:focus-visible{
-    background-color: hsl( var(--clr-white) / 0.4 );
-    color: hsl( var(--clr-white) );
-   }
+@media (min-width:45rem) {
+button[data-type = "nav-btn"]{
+ background-color: hsl( var(--clr-white) );
+}
+        
+ button[data-type = "nav-btn"]:hover,
+ button[data-type = "nav-btn"]:focus-visible{
+  background-color: hsl( var(--clr-white) / 0.4 );
+ color: hsl( var(--clr-white) );
+ }
+}
